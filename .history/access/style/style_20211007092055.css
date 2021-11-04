@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    
+}
+
+
+#1,#2 {
+
+}
+
+.show-slide{
+    width: 300px;
+    height: 168px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide-1,
+.slide-2,
+.slide-3,
+.slide-4{
+
+}

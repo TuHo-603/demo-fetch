@@ -1,0 +1,23 @@
+{
+    "course": [{
+            "id": 1,
+            "course": "PHP"
+        },
+        {
+            "id": 2,
+            "course": "Lavarel"
+        },
+        {
+            "id": 3,
+            "course": "Ruby"
+        },
+        {
+            "id": 4,
+            "course": "Javascript"
+        },
+        {
+            "id": 1,
+            "course": "PHP"
+        }
+    ]
+}

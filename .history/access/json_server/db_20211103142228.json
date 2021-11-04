@@ -1,0 +1,15 @@
+{
+    "items": [{
+            "name": "Bánh kẹo",
+            "quantity": 100
+        },
+        {
+            "name": "Đồ gia dụng",
+            "quantity": 10
+        },
+        {
+            "name": "Thẻ điện thoại",
+            "quantity": 100
+        }
+    ]
+}

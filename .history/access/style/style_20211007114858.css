@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    
+}
+
+.slider{
+    width: 300px;
+    height: 168px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+input {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.slide{
+
+}
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4 {
+    margin 20px
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #fff;
+}

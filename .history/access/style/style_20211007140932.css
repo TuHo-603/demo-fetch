@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    width: 300px;
+    height: 168px;
+    overflow: hidden;
+}
+
+.slider{
+    width: 500%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+.slide{
+    width: 20%;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+
+#input-1,
+#input-2,
+#input-3,
+#input-4 {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+#input-1:checked ~ .img-first{
+    margin-left: 0;
+}
+#input-2:checked ~ .img-first{
+    margin-left: -20%;
+}
+#input-3:checked ~ .img-first{
+    margin-left: -40%; 
+}
+#input-4:checked ~ .img-first{
+    margin-left: -60%;
+}
+
+.nav{
+    position: absolute;
+    top: 130px;
+    right: 0;
+    bottom: 0;
+    left: 60px;
+    display: flex;
+}
+
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4 {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+
+.nav-1:hover,
+.nav-2:hover,
+.nav-3:hover,
+.nav-4:hover {
+    background-color: #fff;
+}

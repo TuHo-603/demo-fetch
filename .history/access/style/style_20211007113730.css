@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    
+}
+
+.slider{
+    width: 300px;
+    height: 168px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+input {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.slide{
+
+}
+.nav{
+    position: absolute;
+    width: 20px;
+      height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #fff;
+}
